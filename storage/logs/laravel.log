@@ -1,0 +1,4 @@
+[2025-11-20 13:26:01] local.ERROR: Cannot declare class App\Models\Interest, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\Interest, because the name is already in use at D:\\KULIAH\\SEMESTER 3\\BWP\\PROJEK\\template_laravel_12\\template_laravel_12\\app\\Models\\User.php:8)
+[stacktrace]
+#0 {main}
+"} 
