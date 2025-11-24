@@ -1,0 +1,55 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+.env
+.env.*
+!.env.example
+.phpunit.result.cache
+.phpunit.cache
+composer.lock # Opsional (kalau di tim biasanya tetap di-commit)
+
+# Laravel Storage
+/storage/*.key
+/storage/app/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+!storage/app/public/
+!storage/framework/cache/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/views/.gitignore
+!storage/framework/testing/.gitignore
+!storage/logs/.gitignore
+
+# Cache & Temporary Files
+*.cache
+*.log
+*.tmp
+
+# IDE & Editor
+/.idea/
+/.vscode/
+/nbproject/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# NPM / Frontend
+npm-debug.log
+yarn-error.log
+.pnpm-store/
+
+# Build
+/public/build/
+/public/hot
+
+# Laravel Octane / Horizon (Jika pakai)
+*.pid
+
+# PHPUnit Coverage
+coverage/
